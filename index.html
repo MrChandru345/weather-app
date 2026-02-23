@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search City" />
+        <button aria-label="Search" title="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="suggestions-box"></div>
+
+      <div class="city-intro">
+        <img src="assets/search.png" alt="Search illustration" />
+        <h2>Search City</h2>
+        <p>Find out the weather conditions of the city</p>
+      </div>
+
+      <div class="not-found">
+        <img src="assets/404.webp" alt="404 illustration" />
+        <h2>Oops! City Not Found</h2>
+        <p>Please check the spelling and try again.</p>
+      </div>
+
+      <div class="weather-body">
+        <div class="location-details">
+          <div class="city-name">
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="city">Singapore</span>
+          </div>
+          <div class="date">
+            <span id="date">Thu, 08 Aug</span>
+          </div>
+        </div>
+
+        <div class="weather-status">
+          <div class="weather-icon">
+            <img id="main-icon" src="assets/sun.png" alt="Weather Icon" />
+          </div>
+          <div class="temperature">
+            <h1 id="temp">30°c</h1>
+            <p id="description">Clouds</p>
+          </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="weather-details">
+          <div class="detail-item">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="detail-text">
+              <p id="humidity">74%</p>
+              <span>Humidity</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fa-solid fa-wind"></i>
+            <div class="detail-text">
+              <p id="wind-speed">4.12 M/s</p>
+              <span>Wind Speed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="forecast"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
