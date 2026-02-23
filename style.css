@@ -45,6 +45,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .search-bar input {
@@ -59,6 +61,15 @@ body {
 
 .search-bar input::placeholder {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar input:-webkit-autofill,
+.search-bar input:-webkit-autofill:hover,
+.search-bar input:-webkit-autofill:focus,
+.search-bar input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 .search-bar button {
@@ -305,6 +316,9 @@ body {
     padding: 20px;
     height: auto;
     min-height: 500px;
+  }
+  .search-bar {
+    width: 100%;
   }
   .weather-status {
     margin: 15px 0;
