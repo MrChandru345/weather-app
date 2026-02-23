@@ -24,17 +24,4 @@ A sleek, modern, and fully responsive weather web application built to provide r
 - **Iconography**: FontAwesome and custom vector assets.
 - **Styling**: Vanilla CSS featuring modern flexbox layouts, media queries for mobile-responsiveness, and CSS variables/glass effects for theming.
 
-## 📈 Project Impact & Technical Overview
-
-This project was developed as a comprehensive demonstration of modern frontend engineering principles. It highlights my ability to architect a complete, user-centric application from scratch without relying on heavy frameworks.
-
-**Key Technical Achievements:**
-
-- **Asynchronous Data Handling:** Successfully integrated multiple third-party RESTful API endpoints (OpenWeatherMap) using modern `async/await` patterns to fetch concurrent data efficiently.
-- **Performance Optimization:** Built a custom JavaScript debounce function to manage API rate limiting during live search inputs, significantly reducing unnecessary network requests.
-- **Responsive UI Architecture:** Engineered a pixel-perfect, mobile-first interface using CSS Flexbox and advanced CSS properties (like backdrop-filters) to achieve a modern, premium "Glassmorphism" aesthetic.
-- **Robust State Management:** Implemented logic to gracefully handle edge cases such as denied geolocation permissions and 404 API error responses with custom fallback UI states.
-
----
-
 _A fully functional showcase of responsive web design, API integration, and asynchronous JavaScript._
