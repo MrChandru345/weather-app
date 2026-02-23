@@ -24,20 +24,17 @@ A sleek, modern, and fully responsive weather web application built to provide r
 - **Iconography**: FontAwesome and custom vector assets.
 - **Styling**: Vanilla CSS featuring modern flexbox layouts, media queries for mobile-responsiveness, and CSS variables/glass effects for theming.
 
-## 📈 Highlights for Resume
+## 📈 Project Impact & Technical Overview
 
-- **API Integration**: Successfully integrated multiple endpoints of a third-party RESTful API (OpenWeatherMap), managing API keys securely and efficiently parsing complex nested JSON responses.
-- **Performance Optimization**: Implemented a **debounce function** (300ms delay) on the search input to mitigate excessive API requests, demonstrating an understanding of frontend performance best practices and API rate limiting.
-- **Asynchronous Programming**: Handled multiple concurrent asynchronous operations using modern `async/await` and `Promise.all()` to fetch current weather and forecasts simultaneously, reducing load times.
-- **UI/UX Excellence**: Engineered a pixel-perfect, mobile-responsive interface using Flexbox. Resolved complex layout challenges, including absolute positioning for autocomplete dropdowns and dynamic sizing for forecast cards without overflow issues.
-- **Error Handling & Edge Cases**: Built robust fallback UI components for scenarios like denied geolocation permissions or failed API lookups (404 Not Found handling).
+This project was developed as a comprehensive demonstration of modern frontend engineering principles. It highlights my ability to architect a complete, user-centric application from scratch without relying on heavy frameworks.
 
-## 🛠️ How to Run Locally
+**Key Technical Achievements:**
 
-1. Clone the repository to your local machine.
-2. Ensure you have a valid OpenWeatherMap API key (replace the `API_KEY` placeholder in `script.js` if necessary).
-3. Open `index.html` directly in your browser, or use a local development server (e.g., Live Server extension in VS Code) for optimal performance.
+- **Asynchronous Data Handling:** Successfully integrated multiple third-party RESTful API endpoints (OpenWeatherMap) using modern `async/await` patterns to fetch concurrent data efficiently.
+- **Performance Optimization:** Built a custom JavaScript debounce function to manage API rate limiting during live search inputs, significantly reducing unnecessary network requests.
+- **Responsive UI Architecture:** Engineered a pixel-perfect, mobile-first interface using CSS Flexbox and advanced CSS properties (like backdrop-filters) to achieve a modern, premium "Glassmorphism" aesthetic.
+- **Robust State Management:** Implemented logic to gracefully handle edge cases such as denied geolocation permissions and 404 API error responses with custom fallback UI states.
 
 ---
 
-_Created as a demonstration of frontend web development fundamentals, UI design execution, and asynchronous API integrations._
+_A fully functional showcase of responsive web design, API integration, and asynchronous JavaScript._
